@@ -1880,3 +1880,37 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/*-----------------------------------*\
+  #SERVICE ICONS (UPDATED)
+\*-----------------------------------*/
+
+.service-icon {
+  font-size: 40px;
+  color: var(--orange-yellow-crayola);
+  transition: transform 0.3s ease, color 0.3s ease, filter 0.3s ease;
+}
+
+.service-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 215, 100, 0.08);
+  border-radius: 12px;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+
+.service-item:hover .service-icon-box {
+  background: rgba(255, 215, 100, 0.15);
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 215, 100, 0.4);
+}
+
+.service-item:hover .service-icon {
+  color: hsl(45, 100%, 78%);
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 6px rgba(255, 215, 100, 0.5));
+}
