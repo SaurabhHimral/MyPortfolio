@@ -34,72 +34,76 @@
   <main>
 
     <!--
-      - #SIDEBAR
-    -->
+  - #SIDEBAR
+-->
 
-    <aside class="sidebar" data-sidebar>
+<aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info">
+  <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Your Name" width="80">
-        </figure>
+    <figure class="avatar-box">
+      <img src="./assets/images/my-avatar.png" alt="Saurabh" width="80">
+    </figure>
 
-        <div class="info-content">
-          <h1 class="name" title="Your Name">Saurabh</h1>
-          <p class="title">Data Analyst</p>
+    <div class="info-content">
+      <h1 class="name" title="Saurabh">Saurabh</h1>
+      <p class="title">Data Analyst</p>
+    </div>
+
+    <button class="info_more-btn" data-sidebar-btn>
+      <span>Show Contacts</span>
+      <ion-icon name="chevron-down"></ion-icon>
+    </button>
+
+  </div>
+
+  <div class="sidebar-info_more">
+
+    <div class="separator"></div>
+
+    <ul class="contacts-list">
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="mail-outline"></ion-icon>
         </div>
+        <div class="contact-info">
+          <p class="contact-title">Email</p>
+          <a href="mailto:saurabhhimral@gmail.com" class="contact-link">saurabhhimral@gmail.com</a>
+        </div>
+      </li>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Phone</p>
+          <a href="tel:+919459391411" class="contact-link">+91 9459391411</a>
+        </div>
+      </li>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+    </ul>
 
-      </div>
+    <div class="separator"></div>
 
-      <div class="sidebar-info_more">
+    <!-- Social Media Links -->
+    <ul class="social-list">
+      <li class="social-item">
+        <a href="https://www.linkedin.com/in/saurabh-himral-889332200/" target="_blank" class="social-link">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </li>
+      <li class="social-item">
+        <a href="https://www.linkedin.com/in/saurabh-himral-889332200/" target="_blank" class="social-link">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </li>
+    </ul>
 
-        <div class="separator"></div>
+  </div>
 
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:saurabhhimral@gmail.com" class="contact-link">saurabhhimral@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+919459391411" class="contact-link">+919459391411</a>
-            </div>
-
-        
-
-      </div>
-
-    </aside>
-
-
-
-
-
+</aside>
     <!--
       - #main-content
     -->
@@ -412,6 +416,44 @@
 
             </li>
 
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">NLP</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
           </ul>
 
         </section>

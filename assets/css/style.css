@@ -1914,3 +1914,35 @@ textarea.form-input::-webkit-resizer { display: none; }
   transform: scale(1.1);
   filter: drop-shadow(0 0 6px rgba(255, 215, 100, 0.5));
 }
+
+/*-----------------------------------*\
+  #SOCIAL ICONS IN SIDEBAR
+\*-----------------------------------*/
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-item {
+  list-style: none;
+}
+
+.social-link {
+  color: var(--orange-yellow-crayola);
+  font-size: 22px;
+  background-color: rgba(255, 215, 100, 0.08);
+  border-radius: 50%;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  color: hsl(45, 100%, 78%);
+  background-color: rgba(255, 215, 100, 0.15);
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 8px rgba(255, 215, 100, 0.4));
+}
