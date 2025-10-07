@@ -1946,3 +1946,47 @@ textarea.form-input::-webkit-resizer { display: none; }
   transform: scale(1.2);
   filter: drop-shadow(0 0 8px rgba(255, 215, 100, 0.4));
 }
+/*-----------------------------------*\
+  #PROJECT BUTTONS (PORTFOLIO)
+\*-----------------------------------*/
+
+.project-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.project-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--orange-yellow-crayola);
+  color: var(--eerie-black-1);
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: var(--shadow-1);
+  transition: all 0.3s ease;
+}
+
+.project-btn ion-icon {
+  font-size: 18px;
+}
+
+.project-btn:hover {
+  background: hsl(45, 100%, 78%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 215, 100, 0.3);
+}
+
+/* GitHub variant */
+.live-btn {
+  background: linear-gradient(90deg, hsl(45, 100%, 72%), hsl(35, 100%, 65%));
+  color: var(--smoky-black);
+}
+
+.live-btn:hover {
+  background: linear-gradient(90deg, hsl(45, 100%, 75%), hsl(35, 100%, 70%));
+}
